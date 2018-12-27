@@ -1,0 +1,86 @@
+
+
+
+h1.fourZeroFour {
+  font-family: 'Monoton', cursive;
+  font-size: 92px;
+  margin:0;
+  padding-top: 80px;
+  width: auto;
+  justify-content: center;
+  display:flex;
+}
+
+@media  screen for (max-width: 660px){
+
+}
+
+img{
+  height: 240px;
+  margin: 0 10px 0 10px;
+}
+
+
+h1.error{
+  font-family: 'Monoton', cursive;
+  /*font-family: 'Luckiest Guy', cursive;*/
+  font-size: 38px;
+  margin:0;
+  width: auto;
+  justify-content: center;
+  display:flex;
+  padding-right: 40px;
+}
+
+.words{
+  font-size: 18px;
+  font-family: 'Major Mono Display', monospace;
+  /*font-family: 'Iceberg', cursive;*/
+  width: auto;
+  padding: 60px 100px;
+  width: auto;
+  justify-content: center;
+}
+
+@media  screen and (max-width: 660px) {
+  main.words{
+    font-size: 14px;
+    background-color: #f36659;
+    color: white;
+    margin:40px ;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    line-height: 1.5;
+  }
+}
+
+p.returntohomepage {
+  font-size: 24px;
+  font-family: 'Major Mono Display', monospace;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 40px;
+  padding-bottom:
+
+}
+
+a {
+  border-top: 2px;
+  color: red;
+  text-decoration: none;
+
+}
+a:hover {
+  font-weight: 800;
+  text-decoration:underline;
+
+}
+
+footer {
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+    width: auto;
+    justify-content: center;
+    display:flex;
+    margin-top: 20;
+}

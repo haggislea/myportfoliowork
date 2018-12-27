@@ -1,0 +1,90 @@
+body {
+  font-family:sans-serif;
+  font-size: 16px;
+  background-color: #79D2A9;
+  color: white;
+}
+
+h1 {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 30px 10px 30px;
+  border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+  -moz-border-radius: 1em 4em 1em 4em
+   / 2em 1em 2em 1em;
+   -webkit-border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+}
+
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 210px;
+  padding-left: 180px;
+  padding-right: 10px;
+  padding-bottom:80px;
+
+}
+
+.human {
+  width: 160px;
+  height: 160px;
+  padding: 12px;
+  margin: 8px;
+}
+
+img {
+  filter: saturate(0%);
+}
+
+.human:hover {
+  filter: saturate(100%);
+}
+
+.login {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-weight: 250;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+  -moz-border-radius: 1em 4em 1em 4em
+   / 2em 1em 2em 1em;
+   -webkit-border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+}
+
+p {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+}
+
+input {
+  color: #000000;
+}
+
+input::placeholder {
+  color: #cccccc;
+}
+
+.discover input {
+  border: 1px solid #D7D688;
+  border-radius: 12px;
+  border-top-color: #E2B2A7;
+  position: relative;
+  display: inline-block;
+  max-width: 672px;
+  top:200px;
+  left: 340px;
+  right: auto;
+  width: 45%;
+  padding: 6px;
+text-align: center;
+
+}
