@@ -1,0 +1,267 @@
+nav {
+  background-color: rgba(95, 213, 136, 0.8);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+a.nav-link {
+  color: red;
+  font-size: 16px;
+  border-right-style: solid;
+}
+
+h1.navcompanyname.a {
+  color: black;
+}
+
+div.container {
+  background-color: none;
+}
+
+img.logo {
+  width: 150px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#lonewolf, #chatterbox, #ourmission, form {
+  margin-top: 220px;
+}
+
+#products {
+  text-align: center;
+}
+
+.homepagepic {
+  border-style: double;
+  padding: 28px;
+}
+
+.packageimage {
+  max-width: 100%
+}
+
+@media screen and (max-width: 766px) {
+  .packageimage {
+    width: 150px;
+    height: 150px;
+    margin-left: 160px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .packagetitle {
+    font-size: 16px;
+  }
+}
+
+.fromprice {
+  text-align: right;
+}
+
+.lonewolfinfo, .chatterboxinfo {
+  font-size: 22px;
+  padding-left: 48px;
+  margin-bottom: 22px;
+}
+
+p.chatterboxinfo {
+  margin-left: 20px;
+}
+
+h3.step1 {
+  padding-left: 48px;
+  margin-bottom: 28px;
+  margin-left: 16px;
+}
+
+.step2 {
+  padding-left: 38px;
+  padding-top: 28px;
+}
+
+button.wolf--price, button.chatterbox--price, button.chatterbox--mins, button.view-deal {
+  padding: 11px;
+  border-radius: 20px;
+  margin-left: 21px;
+  margin-bottom: 10px;
+  background-color: rgb(95, 213, 136);
+  font-size: 18px;
+}
+
+.deal {
+  color: black;
+  text-decoration: none;
+}
+
+button.view-deal:hover {
+  background-color: lightgrey;
+  text-decoration: none;
+}
+
+button.monthly {
+  padding: 11px;
+  border-radius: 20px;
+  margin-left: 8px;
+  background-color: rgb(95, 213, 136);
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+button.annually {
+  padding: 12px;
+  border-radius: 20px;
+  margin-left: 8px;
+  background-color: rgb(95, 213, 136);
+  font-size: 18px;
+}
+
+button.buy {
+  padding: 12px;
+  border-radius: 20px;
+  margin-left: 8px;
+  background-color: #FF5733;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+button.wolf--price:hover, button.chatterbox--price:hover, button.chatterbox--mins:hover, button.annually:hover, button.monthly:hover {
+  background-color: lightgrey;
+}
+
+.price {
+  border-style: dashed;
+  border-color: green;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 766px) {
+  .price {
+    margin-left: 160px;
+    margin-right: 160px;
+  }
+}
+
+.buy {
+  margin-top: 36px;
+}
+
+#price {
+  font-size: 22px;
+}
+
+button.buy:hover {
+  background-color: #F52C58;
+}
+
+@media screen and (max-width:766px) {
+  button.buy {
+    text-align: center;
+  }
+}
+
+.crosspromo {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 22px;
+}
+
+.phoneus {
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.rights {
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.containerform {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.btn-twitter {
+  background-color: #1da1f2;
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+}
+
+.btn-linkedin {
+  background-color: #0077b5;
+}
+
+#social-buttons .btn-primary {
+  border: none;
+  margin-top: 24px;
+  margin-bottom: 18px;
+}
+
+.btn-twitter:hover {
+  background-color: #60BDF6;
+}
+
+.btn-facebook:hover {
+  background-color: #768BB7;
+}
+
+.btn-linkedin:hover {
+  background-color: #86888a;
+}
+
+footer {
+  margin-top: 38px;
+  text-align: center;
+}
