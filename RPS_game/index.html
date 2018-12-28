@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesheet.css">
+<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+</head>
+
+<body>
+
+<section id="gamemain">
+
+<section class="rpsbutton">
+<button id="rock" value="rock">Rock</button>
+<button id="paper" value="paper">Paper</button>
+<button id="scissors" value="scissors">Scissors</button>
+</section>
+
+
+
+<section class="played">
+    <p>You played: <span id="play_you"></span></p>
+    <p>Machine played: <span id="play_machine"></span></p>
+</section>
+
+
+<section class="result">
+    <h2>Results</h2>
+
+    <div class="container">
+      <div class="row">
+    <div class="col-sm-4">
+    <p>Won: <span id="game_won">0</span></p>
+  </div>
+      <div class="col-sm-4">
+    <p>Lost: <span id="game_lost">0</span></p>
+</div>
+<div class="col-sm-4">
+  <p>Draw: <span id="game_draw">0</span></p>
+</div>
+</div>
+</div>
+
+<div class="container">
+  <div class="row">
+  <div class="col-lg-8">
+    <p>Played: <span id="game_played">0</span></p>
+  </div>
+  </div>
+</div>
+
+
+
+
+      <p class="madeby">&copy; Made by Leanne &#9731;</p>
+</section>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</section>
+<footer>
+   <p id="strategy">&#9758;<a href="http://nowiknow.com/the-strategy-behind-rock-paper-scissors/">Strategy</a>&#9752;</p>
+</footer>
+</body>
+</html>

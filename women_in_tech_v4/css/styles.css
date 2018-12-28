@@ -1,0 +1,173 @@
+nav {
+  position: fixed;
+  background-color: rgba(255, 182, 193, 0.9);
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar {
+  padding: 2rem;
+}
+
+a.navbar-brand {
+  font-family: 'Dosis', sans-serif;
+  font-size: 60px;
+  text-shadow: 2px 2px gray;
+  top: 60px;
+  right: 40px;
+  color: white;
+  padding: 6px 16px;
+  margin-right: 120px;
+}
+
+
+a.navbar-brand:hover {
+  text-shadow: 2px 2px white;
+}
+
+a.nav-link {
+    list-style-type: none;
+}
+
+button.navbar-toggler {
+  background-color: rgba(224, 15, 228, 0.17);
+    margin-top: 24px;
+}
+
+span.navbar-toggler-icon {
+  font-size: 1.2rem;
+  color: white;
+}
+
+a.nav-link {
+  color: black;
+  font-size: 22px;
+}
+
+a.nav-link:hover {
+  color: brown;
+  font-weight: bold;
+  text-decoration: overline;
+}
+
+
+
+
+footer {
+  padding: 12px;
+  margin-top: 16px;
+}
+
+
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 48px;
+  color: white;
+  padding: 20px;
+  width: 200px;
+  text-shadow: 2px 2px gray;
+  margin: auto;
+  line-height: 0.85;
+  margin-top:160px;
+}
+
+h2 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 32px;
+  color: white;
+  text-shadow: 2px 2px gray;
+}
+
+h3 {
+  font-family: monospace;
+  font-size: 24px;
+  color: white;
+  text-shadow: 3px 2px gray;
+}
+
+body {
+  background: linear-gradient(to bottom, #ded7ae, #f4c6a1, #ffb4a9, #ffa6c7, #e3a5ee);
+  font-family: monospace color: white;
+  line-height: 1.8em;
+}
+
+figure {
+  width: 200px;
+  margin: auto;
+  margin-bottom: 34px;
+}
+
+
+img {
+  border-radius: 220px;
+  height: 420px;
+}
+
+@media screen and (max-width:820px) {
+  figure img {
+    height: 160px;
+    width: 160px;
+  }
+}
+
+figcaption {
+  font-family: 'Dosis', sans-serif;
+  padding-top: 12px;
+  color: #655A77;
+  margin: 6px -20px -20px -20px;
+}
+
+.extraordinary, .biography {
+  padding: 12px 28px;
+}
+
+@media screen and (min-width: 820px) {
+  section.extraordinary, section.biography {
+    font-size: 32px;
+    color: #811CD1;
+    font-weight: 500;
+  }
+}
+
+ul li {
+  font-size: 22px;
+  font-family: monospace;
+  color: white;
+}
+}
+
+
+p {
+  font-family: monospace;
+  font-size: 22px;
+  color: black;
+  padding: 16px 28px;
+  margin: 0;
+}
+
+@media screen and (min-width: 820px) {
+  body p {
+    font-size: 26px;
+    line-height: 1.2;
+    color: #811CD1;
+    font-weight: 300;
+  }
+}
+
+blockquote p {
+  border-style: dotted;
+  border-color: #655A77;
+  padding: 22px;
+  margin: auto;
+  color: white;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 820px) {
+  blockquote, blockquote.p {
+    background-color: lightblue;
+  }
+}

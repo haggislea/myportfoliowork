@@ -1,0 +1,90 @@
+nav {
+  position: fixed;
+  background-color: rgba(255, 182, 193, 0.9);
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+a.navbar-brand {
+  font-family: 'Dosis', sans-serif;
+  font-size: 60px;
+  text-shadow: 2px 2px gray;
+  top: 60px;
+  right: 40px;
+  color: white;
+  padding: 6px 16px;
+  margin-right: 120px;
+}
+
+a.navbar-brand:hover {
+  text-shadow: 2px 2px white;
+}
+
+button.navbar-toggler {
+  background-color: rgba(224, 15, 228, 0.17);
+  margin-top: 24px;
+}
+
+span.navbar-toggler-icon {
+  font-size: 1.2rem;
+  color: white;
+}
+
+a.nav-link {
+  color: black;
+  font-size: 22px;
+}
+
+a.nav-link:hover {
+  color: brown;
+  font-weight: bold;
+  text-decoration: overline;
+}
+
+#homepage {
+  background-image: url("/images/codingimage.jpg");
+  /* background-size: 100%; */
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-top: 260px;
+}
+
+img {
+  border-radius: 640px;
+  height: 420px;
+  margin-top: 210px;
+  margin-bottom: 22px;
+  margin-left: 32px;
+  filter: grayscale(100%);
+}
+
+img:hover {
+  filter: none;
+}
+
+#colophon footer {
+  margin: 20px;
+  padding: 6px 6px 12px;
+  position: fixed;
+  bottom: 20px;
+  right: 8px;
+}
+
+footer p a {
+  color: #A34DB1;
+  text-decoration: overline;
+}
+
+footer p a:hover {
+  color: #D60082;
+  text-decoration: none;
+}
